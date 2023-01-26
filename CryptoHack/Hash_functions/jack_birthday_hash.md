@@ -2,7 +2,6 @@
 
 Category: Cryptography, 20 points.
 
-## Jack's Birthday Hash
 ### Description
 
 Given any input data, `JACK11` has been designed to produce a deterministic **bit array of length 11**, which is sensitive to small changes using the avalanche effect.
