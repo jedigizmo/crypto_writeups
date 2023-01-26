@@ -47,6 +47,7 @@ Since P(N;H) is the probability we can set:
 
 ```math
 P(N;H) = 0.5 
+
 H = 2^n = 2^11; 
 ```
 
