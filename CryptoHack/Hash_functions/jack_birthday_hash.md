@@ -36,12 +36,16 @@ P(N;H) = 1-((H-1)/H)^N
 So, to convert the birthday problem to a hash collision problem we can think of **H** as the total number of hashes **2^n** (n = # of bits) and N being the number of strings until collision. 
 
 > To Summarize:
-> H = 2^n ; n = # of bits
-> P(N;H) = probability that a hash collision will happen
+```math
+H = 2^n ; n = # of bits
+P(N;H) = probability that a hash collision will happen
+```
 
 Since P(N;H) is the probability we can set:
-> P(N;H) = 0.5 ; the probaility of collision with Jack's Secret
-> H = 2^n = 2^11; (n = bit array size)
+```math
+P(N;H) = 0.5 ; the probaility of collision with Jack's Secret
+H = 2^n = 2^11; (n = bit array size)
+```math
 
 The only unknown variable becomes N, which we can now solve for.
 N can be solved with Mathematica by running this function:
