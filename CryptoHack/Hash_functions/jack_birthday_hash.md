@@ -58,7 +58,7 @@ H = 2^n = 2^{11};
 The only unknown variable becomes N, which we can now solve for.
 
 ```math
-0.5 = 1-((2^11-1)/2^11)^N
+0.5 = 1-((2^{11}-1)/2^{11})^N
 ```
 
 N can be solved with Mathematica by running this function:
