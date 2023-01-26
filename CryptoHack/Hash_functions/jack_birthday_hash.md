@@ -49,7 +49,7 @@ Since P(N;H) is the probability we can set:
 P(N;H) = 0.5 
 ```
 ```math
-H = 2^n = 2<sup>11</sup>; 
+H = 2^n = 2^{11}; 
 ```
 
 0.5 is the probability of collision with Jack's secret that we are looking for.
