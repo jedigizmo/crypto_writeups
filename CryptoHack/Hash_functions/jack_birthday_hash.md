@@ -39,9 +39,8 @@ So, to convert the birthday problem to a hash collision problem we can think of 
 ```math
 H = 2^n 
 ```
-> P(N;H) = probability that a hash collision will happen
-> 
-> n = \# of bits
+P(N;H) = probability that a hash collision will happen
+n = \# of bits
 
 
 Since P(N;H) is the probability we can set:
@@ -57,7 +56,7 @@ H = 2^n = 2^11;
 The only unknown variable becomes N, which we can now solve for.
 N can be solved with Mathematica by running this function:
 
-> Solve[1 - ((2^11 - 1)/2\^11)^x) == 0.5, x]
+**Solve[1 - ((2^11 - 1)/2\^11)^x) == 0.5, x]**
 
 Answer:
 
