@@ -48,13 +48,18 @@ Since P(N;H) is the probability we can set:
 ```math
 P(N;H) = 0.5 
 
-H = 2^n = 2^$11; 
+H = 2^n = 2^(11); 
 ```
 
 0.5 is the probability of collision with Jack's secret that we are looking for.
 (n = bit array size)
 
 The only unknown variable becomes N, which we can now solve for.
+
+```math
+0.5 = 1-((2^11-1)/2^11)^N
+```
+
 N can be solved with Mathematica by running this function:
 
 **Solve[1 - ((2^11 - 1)/2\^11)^x) == 0.5, x]**
