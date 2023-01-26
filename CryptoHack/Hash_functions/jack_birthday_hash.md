@@ -37,7 +37,7 @@ So, to convert the birthday problem to a hash collision problem we can think of 
 
 > To Summarize:
 ```math
-H = 2^n ; n = # of bits
+H = 2^n ; n = \# of bits
 P(N;H) = probability that a hash collision will happen
 ```
 
