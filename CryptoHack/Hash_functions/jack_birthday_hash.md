@@ -40,10 +40,12 @@ So, to convert the birthday problem to a hash collision problem we can think of 
 H = 2^n 
 ```
 > P(N;H) = probability that a hash collision will happen
+> 
 > n = \# of bits
 
 
 Since P(N;H) is the probability we can set:
+
 ```math
 P(N;H) = 0.5 
 H = 2^n = 2^11; 
